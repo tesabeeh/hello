@@ -1,0 +1,228 @@
+/*start body*/
+body {
+    margin: auto;
+}
+ .clear-fix{clear:both}
+.container{
+    width:1170px;
+    margin: auto;
+}
+/*end body*/
+/*start nvbar*/
+/*start media */
+@media (max-width:767px){
+.log {
+    background-color:#042331;
+    height:700px;
+}
+
+.log .nvbar{ 
+    overflow:hidden;
+    color:#fff;
+    font-family: arial;
+    font-weight:lighter;
+}
+/*start con*/
+ .con {
+    margin-top:0px;
+    overflow: hidden;
+}
+
+.con .container .register{
+   
+ }
+ .con .container .register form {
+    background-color: #fff;
+    float:left;
+    width:30%;
+    height: auto;
+    padding:20px;}
+ 
+ .con .container .register form label {
+    font-family: thoma;
+    font-size:20px;
+    display: block;
+    font-weight:lighter;
+    text-align: center;
+   
+ }
+ .con .container .register form input {
+     display: block;
+     background-color:#ddd;
+     border:none;
+     padding:10px;
+     width:250px;
+     margin-top:10px;
+     margin-left:20px;
+    
+ }
+ .con .container .register form {
+    width:270px;
+ }
+ #click {
+    background-color:#063146;
+    color:#fff;
+    border:#2248FF;
+    border-radius:20px;
+    text-align: center;
+    text-transform: capitalize;
+    width:270px;
+    padding:10px 20px;
+    margin-left:15px;
+    margin-top:20px
+    
+ }
+}
+/*end media*/
+.log {
+    background-color:#042331;
+    height:700px;
+}
+
+.log .nvbar{ 
+    overflow:hidden;
+    color:#fff;
+    font-family: arial;
+    font-weight:lighter;
+    
+}
+.nvbar h2 {
+    float:left;
+    font-family:arial;
+     margin:0;
+     width:40%;   
+}
+.nvbar .container ul{
+    list-style:none;
+    padding-left:580px;
+    margin-top:10px;
+    width: 50%;
+
+   
+}
+.nvbar ul li{
+    display:inline;
+    margin:0;
+    float:left;
+    padding:10px;
+}
+.nvbar .m { border:2px solid #ddd}
+/*end nvbar*/
+/*start con*/
+ .con {
+    margin-top:200px;
+    overflow: hidden;
+}
+
+ .con .container .fly  {
+    float:left;
+    width:50%;
+    height: auto;
+    padding-right:90px;
+}
+.con .container .fly h1{
+    font-size:40px;
+    font-family:arial;
+    color:#fff;
+    font-weight:lighter;
+}
+.con .container .fly p,a{
+      color:#fff;
+    font-weight:lighter;
+    font-family: tahoma;
+}
+.con .container .fly p a{
+    text-decoration:none;
+     color:#fff;
+}
+.con .container .fly p span  {
+    color:#eee;
+}
+ .con .container .register{
+
+ }
+ .con .container .register form {
+    background-color: #fff;
+    float:left;
+    width:27%;
+    height: auto;
+    padding:20px;}
+ .con .container .register .table {
+    background-color: #fff;
+    float:left;
+    text-align: center;
+    width:40%;
+    height: auto;
+    padding:20px;
+    border: black solid ;
+    }
+   
+ 
+ .con .container .register form label {
+    font-family: thoma;
+    font-size:20px;
+    display: block;
+    font-weight:lighter;
+    text-align: center;
+    
+   
+ }
+ .con .container .register form input,select,textarea {
+     display: block;
+     background-color:#ddd;
+     border:none;
+     padding:10px;
+     width:250px;
+     margin-top:10px;
+     margin-left:20px;
+    
+ }
+ .con .container .register form select{
+    width:270px;
+ }
+ .con .fly button {
+    background-color:#59f273;
+    color:#fff;
+    border:green;
+    border-radius:20px;
+    text-align: center;
+    text-transform: uppercase;
+    width:150px;
+    padding:10px; 
+ }
+  #login {
+    background-color:#2248FF;
+    color:#fff;
+    border:#2248FF;
+    border-radius:20px;
+    text-align: center;
+    text-transform: capitalize;
+    width:270px;
+    padding:10px 20px;
+    margin-left:15px;
+    margin-top:20px
+    
+ }
+ p{
+    color: gray;
+    text-align: center;
+    text-transform: capitalize;
+    size: 30px;
+ }
+ #click{
+    background-color:#042331;
+    color:#fff;
+    border:#2248FF;
+    border-radius:20px;
+    text-align: center;
+    text-transform: capitalize;
+    width:270px;
+    padding:10px 20px;
+    margin-left:15px;
+    margin-top:20px
+    
+ }
+ a {text-decoration: none;}
+ 
+/*end con*/
+
